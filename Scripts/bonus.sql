@@ -1,7 +1,5 @@
-SELECT domain, COUNT(title) AS jobs_to_fill
+SELECT domain, COUNT(*) AS postings
 FROM data_analyst_jobs
-WHERE skill ILIKE '%sql%' 
-		AND domain IS NOT NULL
-		AND days_since_posting >= 21
+WHERE skill ILIKE '%sql%' AND days_since_posting >21 AND domain IS NOT NULL
 GROUP BY domain
-ORDER BY jobs_to_fill DESC;
+ORDER BY postings DESC;

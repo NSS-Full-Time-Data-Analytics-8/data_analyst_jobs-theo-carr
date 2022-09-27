@@ -1,3 +1,3 @@
-SELECT COUNT(title)
+SELECT COUNT(DISTINCT title)
 FROM data_analyst_jobs
-WHERE title ILIKE '%Analyst%';
+WHERE title ILIKE '%analyst%'

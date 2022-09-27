@@ -22,11 +22,11 @@ NE; Nebraska
 8.	How many unique job titles are there for California companies?
 230
 9.	Find the name of each company and its average star rating for all companies that have more than 5000 reviews across all locations. How many companies are there with more that 5000 reviews across all locations?
-71 companies have more than 5000 reviews
+40 companies have more than 5000 reviews
 10.	Add the code to order the query in #9 from highest to lowest average star rating. Which company with more than 5000 reviews across all locations in the dataset has the highest star rating? What is that rating?
-google; 4.30
+There are many companies tied at 4.2
 11.	Find all the job titles that contain the word ‘Analyst’. How many different job titles are there?
-1669
+774
 12.	How many different job titles do not contain either the word ‘Analyst’ or the word ‘Analytics’? What word do these positions have in common?
 4 - common word 'DATA'
 **BONUS:**
@@ -34,7 +34,7 @@ You want to understand which jobs requiring SQL are hard to fill. Find the numbe
  - Disregard any postings where the domain is NULL.
  - Order your results so that the domain with the greatest number of `hard to fill` jobs is at the top.
   - Which three industries are in the top 4 on this list? How many jobs have been listed for more than 3 weeks for each of the top 4?
-"Internet and Software"	63 jobs
-"Banks and Financial Services"	63 jobs
-"Consulting and Business Services"	62 jobs
-"Health Care"	54 jobs
+"Internet and Software"	62 jobs
+"Banks and Financial Services"	61 jobs
+"Consulting and Business Services"	57 jobs
+"Health Care"	52 jobs

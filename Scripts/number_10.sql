@@ -1,7 +1,6 @@
-SELECT company,
-		AVG(star_rating),
-		SUM(review_count) AS total_reviews
+SELECT company, AVG(star_rating) AS avg_rating
 FROM data_analyst_jobs
+WHERE review_count > 5000 
 GROUP BY company
-HAVING SUM(review_count) > 5000
-ORDER BY AVG(star_rating) DESC;
+ORDER BY avg_rating DESC;
+
